@@ -5,3 +5,5 @@
 .DS_Store
 /vendor
 package-lock.json
+dist/
+webpack.config.js

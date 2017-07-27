@@ -1,7 +1,7 @@
 const path = require('path')
 
 const config = {
-    entry: '/Users/shihlinlu/Desktop/Dev/sentry/code/sentry_git/sentrydb/sentrydb/src/app.js',
+    entry: '/Users/shihlinlu/Desktop/Dev/react-dashboard/src/app.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'

@@ -1,0 +1,44 @@
+/* MAIN PANEL CSS */
+
+body {
+    background-color: #f2f4f8;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.element-container {
+    margin: 25px 25px 25px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(69, 101, 173, 0.1);
+}
+
+.element-info {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.row {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.element-inner-title {
+    margin: 5px;
+}
+
+.element-inner-subtitle {
+    margin: 5px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+

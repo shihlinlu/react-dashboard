@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import MainPanel from './modules/main_panel'
 
-require('/static/css/main.css');
+require('../static/css/mainPanel.css');
 
 class Main extends React.Component {
   render() {

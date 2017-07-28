@@ -9,7 +9,7 @@ class ChartsPanel extends React.Component {
             <Grid columns={2}>
                 <Grid.Column width={8}>
                     <Grid.Row>
-                        <BarChart />
+                        <BarChart data={[5,10,1,3]} size={[500,500]} />
                     </Grid.Row>
                 </Grid.Column>
                 <Grid.Column width={8}>

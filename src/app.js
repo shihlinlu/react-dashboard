@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import MainPanel from './modules/main_panel'
 import ChartsPanel from './modules/charts_panel'
 
-require('../static/css/mainPanel.css');
+require('../static/css/mainPanel.css')
 
 class Main extends React.Component {
   render() {

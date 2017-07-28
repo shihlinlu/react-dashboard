@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 import { scaleLinear } from 'd3-scale'
 import { max } from 'd3-array'
 import { select } from 'd3-selection'
@@ -48,12 +47,18 @@ class BarChart extends React.Component {
             .attr('y', d => this.props.size[1] - yScale(d))
             .attr('height', d => yScale(d))
             .attr('width', 25)
+            .style("stroke", "black")
+            .style("stroke-opacity", 0.25)
     }
 
     render () {
-        return <svg ref={node => this.node = node}
-                    width={500} height={500}>
-        </svg>
+        return (
+            <div>
+                <svg ref={node => this.node = node}
+                     width={500} height={500}>
+                </svg>
+            </div>
+        )
     }
 }
 

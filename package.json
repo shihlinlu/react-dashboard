@@ -1,7 +1,7 @@
 {
   "name": "react-dashboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "reach dashboard",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,7 +29,14 @@
   },
   "dependencies": {
     "css-loader": "^0.28.4",
-    "recharts": "^1.0.0-alpha.2",
+    "d3-array": "1.2.0",
+    "d3-axis": "1.0.8",
+    "d3-brush": "1.0.4",
+    "d3-geo": "1.6.4",
+    "d3-scale": "1.0.6",
+    "d3-selection": "1.1.0",
+    "d3-svg-legend": "2.24.1",
+    "d3-transition": "1.1.0",
     "semantic-ui-react": "^0.71.2",
     "style-loader": "^0.18.2"
   }

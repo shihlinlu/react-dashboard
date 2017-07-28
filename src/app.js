@@ -9,7 +9,7 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-          <MainPanel title="Chart 1" subtitle="Powered by Recharts">
+          <MainPanel title="Chart Set 1" subtitle="Sample charts">
               <ChartsPanel />
           </MainPanel>
       </div>

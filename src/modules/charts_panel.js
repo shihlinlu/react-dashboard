@@ -1,7 +1,6 @@
 import React from 'react'
-import { Linechart, Line } from 'recharts'
 import { Grid } from 'semantic-ui-react'
-import LineChart from '../modules/line_chart'
+import BarChart from './bar_chart'
 import PChart from '../modules/pie_chart'
 
 class ChartsPanel extends React.Component {
@@ -10,7 +9,7 @@ class ChartsPanel extends React.Component {
             <Grid columns={2}>
                 <Grid.Column width={8}>
                     <Grid.Row>
-                        <LineChart />
+                        <BarChart />
                     </Grid.Row>
                 </Grid.Column>
                 <Grid.Column width={8}>

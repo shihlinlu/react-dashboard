@@ -1,7 +1,8 @@
 import React from 'react'
 import { Grid } from 'semantic-ui-react'
 import BarChart from './bar_chart'
-import PChart from '../modules/pie_chart'
+import WorldMap from './worldMap'
+
 
 class ChartsPanel extends React.Component {
     render () {
@@ -14,7 +15,7 @@ class ChartsPanel extends React.Component {
                 </Grid.Column>
                 <Grid.Column width={8}>
                     <Grid.Row>
-                        <PChart />
+                        <WorldMap />
                     </Grid.Row>
                 </Grid.Column>
             </Grid>

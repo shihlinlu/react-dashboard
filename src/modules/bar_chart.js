@@ -4,6 +4,8 @@ import { max } from 'd3-array'
 import { select } from 'd3-selection'
 import { Grid } from 'semantic-ui-react'
 
+
+
 class BarChart extends React.Component {
     constructor(props) {
         super(props);

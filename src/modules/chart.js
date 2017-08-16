@@ -34,7 +34,6 @@ class Chart extends React.Component {
 
         return (
             <svg width={svgDimensions.width} height={svgDimensions.height}>
-                // bars and axis comes here
                 <Axes
                     scales={{ xScale, yScale }}
                     margins={margins}
@@ -48,6 +47,8 @@ class Chart extends React.Component {
                     maxValue ={maxValue}
                     svgDimensions={svgDimensions}
                 />
+
+
             </svg>
         )
     }

@@ -4,7 +4,7 @@ import MainPanel from './modules/main_panel'
 import ChartsPanel from './modules/charts_panel'
 import Chart from './modules/chart'
 
-require('../static/css/mainPanel.css')
+require('../static/css/mainPanel.css');
 
 class Main extends React.Component {
     render() {
